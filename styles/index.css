@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: large;
+}
+body {
+  background-color: burlywood;
+}
+main {
+  margin: 30px;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+input {
+  height: 50px;
+  width: 500px;
+  border-radius: 10px;
+  border-width: 1px;
+  text-align: center;
+  font-family: cursive;
+}
+input::placeholder {
+  color: #555;
+  font-family: cursive;
+}
+#outputReverse {
+  color: #555;
+  font-family: cursive;
+}

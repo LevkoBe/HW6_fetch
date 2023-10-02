@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #650f0f88;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  background-color: #95ba30;
+  color: #650f0f;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin: 10px 10% 10px 10%;
+}
+
+a:hover {
+  background-color: #30ba4e;
+}
