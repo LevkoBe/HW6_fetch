@@ -1,0 +1,29 @@
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 80%;
+}
+
+div {
+  background-color: #650f0f88;
+  min-width: 20%;
+  min-height: inherit;
+  padding: 7px;
+  margin: 3px 10px;
+  color: #555;
+  border-width: 2px;
+  border-color: rgb(149, 196, 40);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#validRequest,
+#nonValidRequest {
+  color: #d6d6d6;
+  font-size: medium;
+}
